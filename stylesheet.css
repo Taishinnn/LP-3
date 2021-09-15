@@ -1,0 +1,276 @@
+header {
+  color: white;
+  background-color: rgba(2, 33, 56, 0.7);
+  overflow: auto;
+}
+
+.title {
+  float: left;
+  margin-left: 10%;
+  font-size: 20px;
+}
+
+.menu li {
+  float: left;
+  list-style: none;
+  margin-top: 5px;
+  margin-left: 5%;
+  font-size: 5px;
+}
+
+.menu li a{
+  text-decoration: none;
+  color: white;
+}
+
+.consept {
+  color: white;
+  height: 200px;
+  background-image: url(../LP-3/images/main.jpg);
+  background-size: cover;
+  margin-top: 0;
+  padding-top: 100px;
+  margin-bottom: 0;
+  text-align: center;
+  text-shadow: 1px 1px 0 #000,
+               -1px 1px 0 #000,
+               1px -1px 0 #000,
+               -1px -1px 0 #000;
+}
+
+.about_main {
+  background-color: rgba(169, 169, 169, 0.567);
+}
+
+.about_title{
+  padding-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.about {
+  padding-bottom: 40px;
+  text-align: center;
+  line-height: 230%;
+}
+
+.news_title {
+  padding-top: 40px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.news ul {
+  margin-top: 40px;
+  margin-right: 70px;
+  margin-bottom: 50px;
+  list-style: none;
+  line-height: 200%;
+  font-size: 13px;
+}
+
+.news li {
+  border-bottom: solid 2px grey;
+}
+
+.news_contents {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.news_contents a {
+  padding: 20px 10px;
+  color: #00BCD4;
+  background: pink;/*背景色*/
+  background-color: rgba(169, 169, 169, 0.567);
+  border-radius: 10px;
+  color: black;
+  text-decoration: none;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .5);
+  border: solid 1px #000000;/*線*/
+}
+
+.works_main {
+  background-color: grey;
+}
+
+.works_main {
+  background-color: rgba(169, 169, 169, 0.567);
+}
+
+.works_title {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.contents {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  
+}
+
+.cotents-item {
+  box-shadow:5px 5px 10px;
+  padding: 0; 
+  margin: 30px;
+  border:1px solid #000;
+  width: 25%;
+  height: 100%;
+}
+
+.contents a {
+  text-decoration: none;
+  color:black;
+}
+
+.cotents-list-1 {
+  background-image: url(../LP-3/images/gym.jpg);
+  background-size: cover;
+  height: 150px;
+}
+
+.cotents-list-2 {
+  background-image: url(../LP-3/images/bar.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+}
+
+.cotents-list-3 {
+  background-image: url(../LP-3/images/cafe.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+}
+
+.cotents-list-4 {
+  background-image: url(../LP-3/images/Working.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+}
+
+.cotents-list-5 {
+  background-image: url(../LP-3/images/Dance.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+}
+
+.cotents-list-6 {
+  background-image: url(../LP-3/images/online.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+}
+/* works */
+
+.map {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.iphone {
+  display: none;
+}
+
+.access-title {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#contact {
+  margin-bottom: -10px;
+}
+
+.name {
+  margin-top: 30px;
+}
+
+section {
+  text-align: center;
+  background-color: rgba(169, 169, 169, 0.567);
+  padding-bottom: 100px;
+}
+
+section input {
+  width: 60%;
+  height: 30px;
+  margin-bottom: 30px;
+}
+
+section textarea {
+  width: 60%;
+  margin-bottom: 30px;
+}
+
+section a {
+  background-color: rgb(62, 186, 202);
+  padding: 15px 50px 15px 50px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.704);
+  border: solid 2px #000000;/*線*/
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(50, 50, 50);
+  height: 60px;
+  color:white;
+  margin-top: -50px;
+}
+
+footer p {
+  padding-top: 15px;
+}
+
+@media screen and (max-width: 979px) {
+  .cotents-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .cotents-list-1 {
+    height: 300px;
+  }
+  .cotents-list-2 {
+    height: 300px;
+  }
+  .cotents-list-3 {
+    height: 300px;
+  }
+  .cotents-list-4 {
+    height: 300px;
+  }
+  .cotents-list-5 {
+    height: 300px;
+  }
+  .cotents-list-6 {
+    height: 300px;
+  }
+
+  .map {
+    display: none;
+  }
+  
+  .iphone {
+    display: block;
+    text-align: center;
+  }
+}
+  
